@@ -154,8 +154,8 @@ export const projectsData = [
 		imgURL:PortfolioV1,
 		title:"PortfolioV1 website",
 		description:"A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
-        live:"https://palindromecheckerlegendofnoobs.netlify.app/",
-		gitHUB:"https://github.com/legendofnoobs/Palindrome-Checker",
+        live:"https://ahmedalirashed.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/Portfolio",
 		usedTech:["HTML", "CSS"]
 	},
 ]
