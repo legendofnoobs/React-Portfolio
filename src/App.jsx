@@ -4,10 +4,11 @@ import Contact from "./section/Contact"
 import Home from "./section/Home"
 import Porjects from "./section/Porjects"
 import Skills from "./section/Skills"
+import background from "../public/background.svg"
 
 function App() {
   return (
-    <>
+    <div style={{backgroundImage:`url(${background})`, backgroundAttachment:"fixed",backgroundPosition:"center", backgroundSize:"cover"}}>
       <header className="h-16 flex justify-center items-center w-full absolute">
         <Navbar/>
       </header>
@@ -26,7 +27,7 @@ function App() {
       <section id="Contact" className=" h-60 text-white flex justify-center">
         <Contact/>
       </section>
-    </>
+    </div>
   )
 }
 
