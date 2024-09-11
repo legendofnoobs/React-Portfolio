@@ -7,7 +7,7 @@ import Skills from "./section/Skills"
 
 function App() {
   return (
-    <div className=" bg-cover bg-fixed bg-[url(../public/background.svg)] bg-no-repeat max-[638px]:bg-[url(../public/background-portrait.svg)] max-[638px]:bg-center max-[638px]:bg-cover max-[638px]:bg-fixed">
+    <div className=" bg-cover bg-fixed bg-[url(../public/background.svg)] bg-no-repeat max-[638px]:bg-[url(../public/background-portrait.svg)] max-[638px]:bg-center max-[638px]:bg-cover max-[638px]:bg-local">
       <header className="h-16 flex justify-center items-center w-full absolute">
         <Navbar/>
       </header>
