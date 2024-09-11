@@ -4,11 +4,10 @@ import Contact from "./section/Contact"
 import Home from "./section/Home"
 import Porjects from "./section/Porjects"
 import Skills from "./section/Skills"
-import background from "../public/background.svg"
 
 function App() {
   return (
-    <div style={{backgroundImage:`url(${background})`, backgroundAttachment:"fixed",backgroundPosition:"center", backgroundSize:"cover"}}>
+    <div className=" bg-cover bg-fixed bg-[url(../public/background.svg)] bg-no-repeat">
       <header className="h-16 flex justify-center items-center w-full absolute">
         <Navbar/>
       </header>
