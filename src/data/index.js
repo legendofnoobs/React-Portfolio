@@ -51,6 +51,7 @@ import PalindromeChecker from "../assets/projects assets/Palindrome Cheker.webp"
 import SpaceTourism from "../assets/projects assets/Space tourism.webp";
 import TodoApp from "../assets/projects assets/Todo app.webp";
 import WeatherApp from "../assets/projects assets/Weather app.webp";
+import PortfolioV1 from "../assets/projects assets/PortfolioV1.webp"
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
@@ -67,7 +68,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"1",
+		id:"2",
 		imgURL:WeatherApp,
 		title:"Weather App",
 		description:"A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
@@ -76,7 +77,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"1",
+		id:"3",
 		imgURL:NikeLanding,
 		title:"Nike Landing website",
 		description:"A simple Nike Landing page to demonstrate Tailwind CSS and React skills. It is fully functional and responsive.",
@@ -85,7 +86,7 @@ export const projectsData = [
 		usedTech:["React.JS", "Tailwind CSS"]
 	},
 	{
-		id:"1",
+		id:"4",
 		imgURL:TodoApp,
 		title:"Todo App",
 		description:"A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
@@ -94,7 +95,7 @@ export const projectsData = [
 		usedTech:["React.js", "CSS"]
 	},
 	{
-		id:"1",
+		id:"5",
 		imgURL:Cover,
 		title:"A Music App Design",
 		description:"For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
@@ -103,16 +104,16 @@ export const projectsData = [
 		usedTech:["Figma"]
 	},
 	{
-		id:"1",
-		imgURL:AdviceApp,
-		title:"Advice App",
-		description:"A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
-        live:"https://adviceapplegendofnoobs.netlify.app/",
-		gitHUB:"https://github.com/legendofnoobs/AdviceApp",
+		id:"6",
+		imgURL:MusicPlayer,
+		title:"Music Player website",
+		description:"A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
+        live:"https://musicplayerlegendofnoobs.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/music-player",
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"2",
+		id:"7",
 		imgURL:Calculator,
 		title:"Calculator App",
 		description:"A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
@@ -121,7 +122,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"1",
+		id:"8",
 		imgURL:CalorieCounter,
 		title:"Calorie Counter App",
 		description:"A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
@@ -130,22 +131,31 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"1",
-		imgURL:MusicPlayer,
-		title:"Music Player website",
-		description:"A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
-        live:"https://musicplayerlegendofnoobs.netlify.app/",
-		gitHUB:"https://github.com/legendofnoobs/music-player",
+		id:"9",
+		imgURL:AdviceApp,
+		title:"Advice App",
+		description:"A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
+        live:"https://adviceapplegendofnoobs.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/AdviceApp",
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	
 	{
-		id:"1",
+		id:"10",
 		imgURL:PalindromeChecker,
 		title:"Palindrome Checker website",
 		description:"A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
-        live:"https://palindromecheckerlegendofnoobs.netlify.app/",
+		live:"https://palindromecheckerlegendofnoobs.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/Palindrome-Checker",
 		usedTech:["HTML", "CSS", "JavaScript"]
+	},
+	{
+		id:"11",
+		imgURL:PortfolioV1,
+		title:"PortfolioV1 website",
+		description:"A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
+        live:"https://palindromecheckerlegendofnoobs.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/Palindrome-Checker",
+		usedTech:["HTML", "CSS"]
 	},
 ]
