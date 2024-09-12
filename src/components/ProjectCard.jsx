@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
 		<div className=" max-w-xl hover:bg-white/10 p-5 rounded-xl transition ease hover:backdrop-blur-lg flex flex-col justify-between max-[994px]:w-1/2 max-[638px]:w-full max-[638px]:text-sm">
 			<div>
 				<div className="mb-5">
-					<img className=" rounded-xl" src={props.imgURL} alt={props.title}/>
+					<img className=" rounded-xl" src={props.imgURL} alt="project Photo"/>
 				</div>
 				<div className="mb-5">
 					<h2 className="text-3xl mb-2 max-[638px]:text-2xl max-[638px]:font-bold">{props.title}</h2>
