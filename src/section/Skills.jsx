@@ -12,7 +12,7 @@ const Skills = () => {
 					})}
 				</div>
 				<div className="w-3/6 max-[638px]:w-full max-[994px]:w-full">
-					<div className="transition ease hover:bg-white/30 p-5 rounded-lg hover:backdrop-blur-sm">
+					<div className="transition ease hover:bg-white/10 p-5 rounded-lg hover:backdrop-blur-sm">
 						<h2 className="text-3xl font-bold">
 							Additional Skills :
 						</h2>
