@@ -22,7 +22,7 @@ const ProjectCard = (props) => {
 					</div>
 				</div>
 			</div>
-			<div className="flex gap-x-5 z-30">
+			<div className="flex gap-x-5 z-30 min-w-fit">
 				<a target="_blank" rel="noopener noreferrer" href={props.live} aria-label="visit live website">
 					<i className="fa-solid fa-link text-2xl"></i>
 				</a>

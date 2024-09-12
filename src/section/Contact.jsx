@@ -25,7 +25,7 @@ const Contact = () => {
 					</a>
 				</li>
 			</ul>
-			<ul className="flex justify-center gap-x-6 text-2xl w-full">
+			<ul className="flex justify-center gap-x-6 text-2xl w-full min-w-fit">
 				<li>
 					<a target="_blank" href="mailto:ahmedalirashed203@gmail.com" aria-label="mail">
 						<i className="fa-solid fa-envelope"></i>
