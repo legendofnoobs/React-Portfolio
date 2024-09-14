@@ -145,7 +145,7 @@ export const projectsData = [
 		imgURL:PalindromeChecker,
 		title:"Palindrome Checker website",
 		description:"A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
-		live:"https://palindromecheckerlegendofnoobs.netlify.app/",
+		live:"https://basicpalindromechecker.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/Palindrome-Checker",
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
