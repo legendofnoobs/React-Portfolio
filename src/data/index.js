@@ -64,7 +64,7 @@ export const projectsData = [
 		title:"Space Tourism website",
 		description:"Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
 		live:"https://spacetourismwebsitelegendofnoobs.netlify.app/",
-		gitHUB:"https://github.com/legendofnoobs/Nike-landing",
+		gitHUB:"https://github.com/legendofnoobs/Space-Tourism-website---Copy",
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
@@ -82,7 +82,7 @@ export const projectsData = [
 		title:"Nike Landing website",
 		description:"A simple Nike Landing page to demonstrate Tailwind CSS and React skills. It is fully functional and responsive.",
         live:"https://nikelandingnoob.netlify.app/",
-		gitHUB:"https://github.com/legendofnoobs/Space-Tourism-website---Copy",
+		gitHUB:"https://github.com/legendofnoobs/Nike-landing",
 		usedTech:["React.JS", "Tailwind CSS"]
 	},
 	{
