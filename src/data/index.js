@@ -52,6 +52,8 @@ import SpaceTourism from "../assets/projects assets/Space tourism.webp";
 import TodoApp from "../assets/projects assets/Todo app.webp";
 import WeatherApp from "../assets/projects assets/Weather app.webp";
 import PortfolioV1 from "../assets/projects assets/PortfolioV1.webp"
+import grillandgo from "../assets/projects assets/grillandgo.png"
+
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
@@ -93,6 +95,15 @@ export const projectsData = [
         live:"https://todoappahemdali.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/todo-app",
 		usedTech:["React.js", "CSS"]
+	},
+	{
+		id:"12",
+		imgURL:grillandgo,
+		title:"grill & go website",
+		description:"A simple restaurant website to demonstrate React.js and Tailwind.css skills. It is Fully functional and responsive",
+		live:"https://grillandgo.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/restaurant-webpage",
+		usedTech:["React.js", "Tailwind.css"]
 	},
 	{
 		id:"5",
