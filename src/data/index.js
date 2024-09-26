@@ -51,8 +51,9 @@ import PalindromeChecker from "../assets/projects assets/Palindrome Cheker.webp"
 import SpaceTourism from "../assets/projects assets/Space tourism.webp";
 import TodoApp from "../assets/projects assets/Todo app.webp";
 import WeatherApp from "../assets/projects assets/Weather app.webp";
-import PortfolioV1 from "../assets/projects assets/PortfolioV1.webp"
-import grillandgo from "../assets/projects assets/grillandgo.png"
+import PortfolioV1 from "../assets/projects assets/PortfolioV1.webp";
+import grillandgo from "../assets/projects assets/grillandgo.png";
+import Brainwave from "../assets/projects assets/BrainWave.png"
 
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
@@ -62,12 +63,12 @@ import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 export const projectsData = [
 	{
 		id:"1",
-		imgURL:SpaceTourism,
-		title:"Space Tourism website",
-		description:"Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
-		live:"https://spacetourismwebsitelegendofnoobs.netlify.app/",
-		gitHUB:"https://github.com/legendofnoobs/Space-Tourism-website---Copy",
-		usedTech:["HTML", "CSS", "JavaScript"]
+		imgURL:Brainwave,
+		title:"Brainwave website",
+		description:"Brainwave website to demonstrate skills in React and tailwind.It was driven to me by Mr. Adrian From Javascript Mastery. It is Fully functional and responsive",
+		live:"https://brainwavelegendofnoobs.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/Brainwave",
+		usedTech:["React.js", "Tailwind css"]
 	},
 	{
 		id:"2",
@@ -97,7 +98,16 @@ export const projectsData = [
 		usedTech:["React.js", "CSS"]
 	},
 	{
-		id:"12",
+		id:"5",
+		imgURL:SpaceTourism,
+		title:"Space Tourism website",
+		description:"Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
+		live:"https://spacetourismwebsitelegendofnoobs.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/Space-Tourism-website---Copy",
+		usedTech:["HTML", "CSS", "JavaScript"]
+	},
+	{
+		id:"6",
 		imgURL:grillandgo,
 		title:"grill & go website",
 		description:"A simple restaurant website to demonstrate React.js and Tailwind.css skills. It is Fully functional and responsive",
@@ -106,7 +116,7 @@ export const projectsData = [
 		usedTech:["React.js", "Tailwind.css"]
 	},
 	{
-		id:"5",
+		id:"7",
 		imgURL:Cover,
 		title:"A Music App Design",
 		description:"For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
@@ -115,7 +125,7 @@ export const projectsData = [
 		usedTech:["Figma"]
 	},
 	{
-		id:"6",
+		id:"8",
 		imgURL:MusicPlayer,
 		title:"Music Player website",
 		description:"A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
@@ -124,7 +134,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"7",
+		id:"9",
 		imgURL:Calculator,
 		title:"Calculator App",
 		description:"A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
@@ -133,7 +143,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"8",
+		id:"10",
 		imgURL:CalorieCounter,
 		title:"Calorie Counter App",
 		description:"A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
@@ -142,7 +152,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"9",
+		id:"11",
 		imgURL:AdviceApp,
 		title:"Advice App",
 		description:"A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
@@ -152,7 +162,7 @@ export const projectsData = [
 	},
 	
 	{
-		id:"10",
+		id:"12",
 		imgURL:PalindromeChecker,
 		title:"Palindrome Checker website",
 		description:"A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
@@ -161,7 +171,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"11",
+		id:"13",
 		imgURL:PortfolioV1,
 		title:"PortfolioV1 website",
 		description:"A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
