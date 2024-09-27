@@ -126,7 +126,7 @@ export const projectsData = [
 		usedTech:["React.js", "CSS","API"]
 	},
 	{
-		id:"7",
+		id:"8",
 		imgURL:Cover,
 		title:"A Music App Design",
 		description:"For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
@@ -135,7 +135,7 @@ export const projectsData = [
 		usedTech:["Figma"]
 	},
 	{
-		id:"8",
+		id:"9",
 		imgURL:MusicPlayer,
 		title:"Music Player website",
 		description:"A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
@@ -144,7 +144,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"9",
+		id:"10",
 		imgURL:Calculator,
 		title:"Calculator App",
 		description:"A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
@@ -153,7 +153,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"10",
+		id:"11",
 		imgURL:CalorieCounter,
 		title:"Calorie Counter App",
 		description:"A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
@@ -162,7 +162,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"11",
+		id:"12",
 		imgURL:AdviceApp,
 		title:"Advice App",
 		description:"A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
@@ -171,7 +171,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript","API"]
 	},
 	{
-		id:"12",
+		id:"13",
 		imgURL:PalindromeChecker,
 		title:"Palindrome Checker website",
 		description:"A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
@@ -180,7 +180,7 @@ export const projectsData = [
 		usedTech:["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id:"13",
+		id:"14",
 		imgURL:PortfolioV1,
 		title:"PortfolioV1 website",
 		description:"A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",
