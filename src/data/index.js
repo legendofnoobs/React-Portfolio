@@ -53,7 +53,8 @@ import TodoApp from "../assets/projects assets/Todo app.webp";
 import WeatherApp from "../assets/projects assets/Weather app.webp";
 import PortfolioV1 from "../assets/projects assets/PortfolioV1.webp";
 import grillandgo from "../assets/projects assets/grillandgo.png";
-import Brainwave from "../assets/projects assets/BrainWave.png"
+import Brainwave from "../assets/projects assets/BrainWave.png";
+import MoviesLand from "../assets/projects assets/MoviesLand.png";
 
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
@@ -77,7 +78,7 @@ export const projectsData = [
 		description:"A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
         live:"https://weatherapplegendofnoobs.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/WeatherApp",
-		usedTech:["HTML", "CSS", "JavaScript"]
+		usedTech:["HTML", "CSS", "JavaScript","API"]
 	},
 	{
 		id:"3",
@@ -95,7 +96,7 @@ export const projectsData = [
 		description:"A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
         live:"https://todoappahemdali.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/todo-app",
-		usedTech:["React.js", "CSS"]
+		usedTech:["React.js", "CSS","Local Storage"]
 	},
 	{
 		id:"5",
@@ -114,6 +115,15 @@ export const projectsData = [
 		live:"https://grillandgo.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/restaurant-webpage",
 		usedTech:["React.js", "Tailwind.css"]
+	},
+	{
+		id:"7",
+		imgURL:MoviesLand,
+		title:"MoviesLand Website",
+		description:"A simple movies website to demonstrate React.js, css, and API skills. It is Fully functional and responsive",
+		live:"https://movieslandlegendofnoobs.netlify.app/",
+		gitHUB:"https://github.com/legendofnoobs/movie-app",
+		usedTech:["React.js", "CSS","API"]
 	},
 	{
 		id:"7",
@@ -158,9 +168,8 @@ export const projectsData = [
 		description:"A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
         live:"https://adviceapplegendofnoobs.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/AdviceApp",
-		usedTech:["HTML", "CSS", "JavaScript"]
+		usedTech:["HTML", "CSS", "JavaScript","API"]
 	},
-	
 	{
 		id:"12",
 		imgURL:PalindromeChecker,
