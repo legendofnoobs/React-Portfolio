@@ -16,18 +16,18 @@ import ViteLogo from "../assets/tech/vite-shadow.png";
 
 
 export const technologies = [
-	{ name: "React", imgURL: ReactLogo },
-	{ name: "Bootstrap", imgURL: BootstrapLogo },
 	{ name: "C++", imgURL: CppLogo },
-	{ name: "CSS", imgURL: CssLogo },
-	{ name: "Figma", imgURL: FigmaLogo },
-	{ name: "GitHub", imgURL: GitHubLogo },
-	{ name: "HTML", imgURL: HtmlLogo },
 	{ name: "JAVA", imgURL: JavaLogo },
-	{ name: "JAVASCRIPT", imgURL: JsLogo },
-	{ name: "Linux", imgURL: LinuxLogo },
 	{ name: "MySql", imgURL: MySqlLogo },
+	{ name: "HTML", imgURL: HtmlLogo },
+	{ name: "CSS", imgURL: CssLogo },
+	{ name: "GitHub", imgURL: GitHubLogo },
+	{ name: "Bootstrap", imgURL: BootstrapLogo },
+	{ name: "JAVASCRIPT", imgURL: JsLogo },
+	{ name: "Figma", imgURL: FigmaLogo },
+	{ name: "React", imgURL: ReactLogo },
 	{ name: "Node.js", imgURL: NodeLogo },
+	{ name: "Linux", imgURL: LinuxLogo },
 	{ name: "NPM", imgURL: NpmLogo },
 	{ name: "Tailwind CSS", imgURL: TailwindLogo },
 	{ name: "Vite", imgURL: ViteLogo },
@@ -66,10 +66,10 @@ export const projectsData = [
 		id:"1",
 		imgURL:Brainwave,
 		title:"Brainwave website",
-		description:"Brainwave website to demonstrate skills in React and tailwind.It was driven to me by Mr. Adrian From Javascript Mastery. It is Fully functional and responsive",
+		description:"Brainwave website to demonstrate skills in React.js and Tailwind.css.It was driven to me by Mr. Adrian From Javascript Mastery. It is Fully functional and responsive",
 		live:"https://brainwavelegendofnoobs.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/Brainwave",
-		usedTech:["React.js", "Tailwind css"]
+		usedTech:["React.js", "Tailwind.css"]
 	},
 	{
 		id:"2",
@@ -84,10 +84,10 @@ export const projectsData = [
 		id:"3",
 		imgURL:NikeLanding,
 		title:"Nike Landing website",
-		description:"A simple Nike Landing page to demonstrate Tailwind CSS and React skills. It is fully functional and responsive.",
+		description:"A simple Nike Landing page to demonstrate Tailwind.css and React skills. It is fully functional and responsive.",
         live:"https://nikelandingnoob.netlify.app/",
 		gitHUB:"https://github.com/legendofnoobs/Nike-landing",
-		usedTech:["React.JS", "Tailwind CSS"]
+		usedTech:["React.js", "Tailwind.css"]
 	},
 	{
 		id:"4",
