@@ -4,7 +4,7 @@ import { Pitems } from "../data";
 
 const About = () => {
 
-	const pStyle = "mb-1 text-lg hover:bg-black/10 hover:backdrop-blur-lg p-3 rounded-xl cursor-pointer transition ease"
+	const pStyle = "mb-1 text-lg p-3 cursor-pointer transition ease"
 	return (
 		<div className=" max-w-6xl m-auto py-10 min-h-fit bg-black/10 backdrop-blur-lg rounded-xl px-5">
 			<h1 className="text-5xl text-center mb-5 font-bold">ABOUT</h1>
@@ -13,7 +13,7 @@ const About = () => {
 					<p className={pStyle}>{Pitems.p1}</p>
 					<p className={pStyle}>{Pitems.p3}</p>
 					<p className={pStyle}>{Pitems.p4}</p>
-					<div className="hover:bg-black/10 hover:backdrop-blur-lg p-3 rounded-xl cursor-pointer transition ease">
+					<div className=" p-3 cursor-pointer transition ease">
 						<h2 className="text-2xl text-extrabold mb-3">Certifications :</h2>
 						<ul className=" pl-5 list-disc">
 							<li>Web Design Certification - FreeCodeCamp.</li>
