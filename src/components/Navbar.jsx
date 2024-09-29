@@ -1,7 +1,7 @@
 const Navbar = () => {
 	const anchorStyle = " text-xl text-white hover:bg-cyan-400 hover:text-[rgb(30,41,59)] py-px px-4 rounded-full transition ease";
 	return (
-		<nav className=" bg-slate-700/30 py-2 px-2 rounded-full fixed border-2 border-cyan-400 mt-2 z-50 backdrop-blur-md">
+		<nav className=" bg-black/10 py-2 px-2 rounded-full fixed border-2 border-cyan-400 mt-2 z-50 backdrop-blur-md">
 			<ul className=" flex w-full items-center justify-between gap-x-7 max-[638px]:hidden">
 				<li>
 					<a className={anchorStyle} href="#Home" aria-label="Home">Home</a>

@@ -3,7 +3,7 @@ import { technologies } from "../data"
 
 const Skills = () => {
 	return (
-		<div className="max-w-6xl m-auto py-10 min-h-fit">
+		<div className="max-w-6xl m-auto py-10 min-h-fit bg-black/10 backdrop-blur-lg rounded-xl px-7">
 			<h1 className="text-5xl text-center mb-16 font-bold">Skills</h1>
 			<div className="flex justify-between max-[638px]:flex-col max-[994px]:flex-col max-[994px]:gap-y-5">
 				<div className=" flex flex-wrap gap-10 w-3/6 max-[638px]:w-full max-[638px]:justify-center max-[994px]:w-full max-[994px]:justify-center">
@@ -12,7 +12,7 @@ const Skills = () => {
 					})}
 				</div>
 				<div className="w-3/6 max-[638px]:w-full max-[994px]:w-full">
-					<div className="transition ease hover:bg-white/10 p-5 rounded-lg hover:backdrop-blur-sm">
+					<div className="transition ease hover:bg-black/10 p-5 rounded-lg hover:backdrop-blur-xl">
 						<h2 className="text-3xl font-bold">
 							Additional Skills :
 						</h2>

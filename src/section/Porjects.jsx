@@ -5,7 +5,7 @@ const Porjects = () => {
 	return (
 		<div className="max-w-6xl m-auto py-10 min-h-fit">
 			<h1 className="text-5xl font-bold text-center mb-16">Projects</h1>
-			<div className="flex flex-wrap justify-between gap-y-10 max-[1294px]:justify-center">
+			<div className="flex flex-wrap justify-between gap-y-10 gap-x-0 max-[1294px]:justify-center">
 				{projectsData.map(function(project){
 					return <ProjectCard 
 						key={project.id} 

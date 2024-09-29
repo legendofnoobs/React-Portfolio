@@ -1,7 +1,7 @@
 
 const Contact = () => {
 	return (
-		<div className="bg-white/10 backdrop-blur-md max-w-full w-full text-center flex flex-col justify-between gap-y-4 h-full p-4">
+		<div className="bg-black/10 backdrop-blur-lg  max-w-full w-full text-center flex flex-col justify-between gap-y-4 h-full p-4">
 			<h1 className="text-2xl w-full">Ahmed Ali Rashed</h1>
 			<ul className="flex justify-center gap-x-6 text-2xl w-full">
 				<li>
