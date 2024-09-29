@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import test from "../assets/projects assets/Nike Landing.png"
 import { projectsData } from "../data"
 
 
@@ -9,7 +8,7 @@ const ProjectCard = (props) => {
 		<div className=" max-w-lg hover:bg-black/10 p-5 rounded-xl transition ease hover:backdrop-blur-lg flex flex-col justify-between max-[994px]:w-1/2 max-[638px]:w-full max-[638px]:text-sm border border-transparent hover:border-white/10 hover:transform hover:scale-105">
 			<div>
 				<div className="mb-5">
-					<img className=" rounded-xl" src={props.imgURL} alt="project Photo"/>
+					<img className=" rounded-xl w-full h-auto" height="245" width="470" src={props.imgURL} alt="project Photo" loading="lazy"/>
 				</div>
 				<div className="mb-5">
 					<h2 className="text-3xl mb-2 max-[638px]:text-2xl max-[638px]:font-bold font-bold">{props.title}</h2>
