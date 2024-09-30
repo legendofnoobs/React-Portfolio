@@ -25,7 +25,7 @@ const About = () => {
 				</div>
 				<div className=" w-6/12 flex flex-col justify-start gap-10 p-3 sm:w-full sm:justify-center max-[638px]:w-full max-[638px]:hidden">
 					<div>
-						<img className=" rounded-2xl w-full h-auto" width="500" height="500" src={illustration} loading="lazy"/>
+						<img className=" rounded-2xl w-full h-auto" width="500" height="500" src={illustration} loading="lazy" alt="illustration" />
 					</div>
 					<div className=" min-h-fit sm:flex sm:justify-center max-[638px]:justify-center">
 						<Button/>
