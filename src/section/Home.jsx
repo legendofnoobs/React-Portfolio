@@ -25,7 +25,7 @@ const Home = () => {
 				<Button/>
 			</div>
 			<div className=" w-6/12 p-4 sm:w-full max-[638px]:w-full max-[638px]:hidden">
-				<img src={illustration2} alt="illustration" loading="lazy" className="w-full h-auto max-[638px]:hidden"/>
+				<img src={illustration2} alt="illustration" loading="lazy" className="w-full h-auto"/>
 			</div>
 		</motion.div>
 	)
