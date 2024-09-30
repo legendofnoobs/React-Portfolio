@@ -13,6 +13,7 @@ import NodeLogo from "../assets/tech/node.webp";
 import NpmLogo from "../assets/tech/npm-logo.webp";
 import TailwindLogo from "../assets/tech/tailwindcss.webp";
 import ViteLogo from "../assets/tech/vite-shadow.webp";
+import FramerMotion from "../assets/tech/framer-motion.webp";
 
 
 export const technologies = [
@@ -31,6 +32,7 @@ export const technologies = [
 	{ name: "NPM", imgURL: NpmLogo },
 	{ name: "Tailwind CSS", imgURL: TailwindLogo },
 	{ name: "Vite", imgURL: ViteLogo },
+	{ name: "Framer Motion", imgURL: FramerMotion },
 ];
 
 export const Pitems = {
