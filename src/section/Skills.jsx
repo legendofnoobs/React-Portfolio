@@ -6,7 +6,7 @@ const Skills = () => {
 		<div className="max-w-6xl m-auto py-10 min-h-fit bg-black/10 backdrop-blur-lg rounded-xl px-7">
 			<h1 className="text-5xl text-center mb-16 font-bold">Skills</h1>
 			<div className="flex justify-between max-[638px]:flex-col max-[994px]:flex-col max-[994px]:gap-y-5">
-				<div className=" flex flex-wrap gap-10 w-3/6 max-[638px]:w-full max-[638px]:justify-center max-[994px]:w-full max-[994px]:justify-center">
+				<div className=" flex flex-wrap gap-8 w-3/6 max-[638px]:w-full max-[638px]:justify-center max-[994px]:w-full max-[994px]:justify-center">
 					{technologies.map(function(tech){
 						return <Card key={tech.name} imgURL={tech.imgURL} />
 					})}
