@@ -11,16 +11,16 @@ function App() {
       <header className="h-16 flex justify-center items-center w-full absolute">
         <Navbar/>
       </header>
-      <section id="Home" className=" min-h-screen text-white p-16 max-[638px]:p-5">
+      <section id="Home" className=" min-h-screen text-white p-16 max-[638px]:p-5 flex justify-center items-center">
         <Home/>
       </section>
-      <section id="Skills" className=" min-h-screen text-white p-16 max-[638px]:p-5">
+      <section id="Skills" className=" min-h-screen text-white p-16 max-[638px]:p-5 flex justify-center items-center">
         <Skills/>
       </section>
       <section id="Projects" className=" min-h-screen text-white p-16 max-[638px]:p-5">
         <Porjects/>
       </section>
-      <section id="About" className=" min-h-screen text-white p-16 max-[638px]:p-5">
+      <section id="About" className=" min-h-screen text-white p-16 max-[638px]:p-5 flex justify-center items-center">
         <About/>
       </section>
       <section id="Contact" className=" h-60 text-white flex justify-center">

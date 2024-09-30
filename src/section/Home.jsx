@@ -3,7 +3,7 @@ import Button from "../components/Button"
 
 const Home = () => {
 	return (
-		<div className="max-w-6xl m-auto mt-5 py-32 px-5 min-h-full flex max-[638px]:flex-col max-[638px]:py-16 max-[994px]:flex-col max-[994px]:py-14 bg-black/10 rounded-xl backdrop-blur-xl">
+		<div className="max-w-6xl py-32 px-5 min-h-full flex max-[638px]:flex-col max-[638px]:py-16 max-[994px]:flex-col max-[994px]:py-14 bg-black/10 rounded-xl backdrop-blur-xl">
 			<div className=" w-6/12 p-4 sm:w-full max-[638px]:w-full">
 				<h1 className="text-7xl font-bold mb-4 max-[638px]:text-5xl">Ahmed Ali Rashed</h1>
 				<h2 className="text-2xl font-bold mb-4">Software Engineering Student</h2>
