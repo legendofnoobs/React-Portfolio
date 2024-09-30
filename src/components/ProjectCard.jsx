@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
-import { projectsData } from "../data"
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faLink } from "@fortawesome/free-solid-svg-icons"
 
 const ProjectCard = (props) => {
 	return (
@@ -22,10 +22,10 @@ const ProjectCard = (props) => {
 			</div>
 			<div className="flex gap-x-5 z-30 min-w-fit">
 				<a target="_blank" rel="noopener noreferrer" href={props.live} aria-label="visit live website">
-					<i className="fa-solid fa-link text-2xl"></i>
+					<FontAwesomeIcon icon={faLink} className="text-2xl"/>
 				</a>
 				<a target="_blank" rel="noopener noreferrer" href={props.gitHUB} aria-label="visit the repository">
-					<i className="fa-brands fa-github text-2xl"></i>
+					<FontAwesomeIcon icon={faGithub} className="text-2xl" />
 				</a>
 			</div>
 		</div>

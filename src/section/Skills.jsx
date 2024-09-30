@@ -36,7 +36,7 @@ const Skills = () => {
 							transition={{ delay: 0.6 }} // Add delay for the heading
 							viewport={{ once: true }}
 						>
-							Additional Skills :
+							Additional Skills:
 						</motion.h2>
 						<motion.ul 
 							className="pl-6 list-disc text-xl leading-9"

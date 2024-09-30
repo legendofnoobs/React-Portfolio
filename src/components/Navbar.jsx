@@ -1,3 +1,10 @@
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faBolt } from "@fortawesome/free-solid-svg-icons";
+import { faDiagramProject } from "@fortawesome/free-solid-svg-icons";
+import { faAddressCard } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons/faPhone";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Navbar = () => {
 	const anchorStyle = " text-xl text-white hover:bg-cyan-400 hover:text-[rgb(30,41,59)] py-px px-4 rounded-full transition ease";
 	return (
@@ -22,27 +29,27 @@ const Navbar = () => {
 			<ul className=" max-[638px]:flex max-[638px]:w-full max-[638px]:items-center max-[638px]:justify-between max-[638px]:max-w-full max-[638px]:gap-x-4 hidden">
 				<li>
 					<a className={anchorStyle} href="#Home" aria-label="Home">
-						<i className="fa-solid fa-house"></i>
+						<FontAwesomeIcon icon={faHouse} />
 					</a>
 				</li>
 				<li>
 					<a className={anchorStyle} href="#Skills" aria-label="Skills">
-						<i className="fa-solid fa-bolt"></i>
+					<FontAwesomeIcon icon={faBolt} />
 					</a>
 				</li>
 				<li>
 					<a className={anchorStyle} href="#Projects" aria-label="Projects">
-						<i className="fa-solid fa-diagram-project"></i>
+						<FontAwesomeIcon icon={faDiagramProject} />
 					</a>
 				</li>
 				<li>
 					<a className={anchorStyle} href="#About" aria-label="About">
-						<i className="fa-solid fa-address-card"></i>
+						<FontAwesomeIcon icon={faAddressCard} />
 					</a>
 				</li>
 				<li>
 					<a className={anchorStyle} href="#Contact" aria-label="Contact">
-						<i className="fa-solid fa-phone"></i>
+					<FontAwesomeIcon icon={faPhone} />
 					</a>
 				</li>
 			</ul>
