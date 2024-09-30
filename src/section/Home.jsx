@@ -24,7 +24,7 @@ const Home = () => {
 				<p className="text-xl mb-10 max-[638px]:text-lg">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
 				<Button/>
 			</div>
-			<div className=" w-6/12 p-4 sm:w-full max-[638px]:w-full max-[638px]:hidden">
+			<div className=" w-6/12 p-4 sm:w-full max-[638px]:w-full">
 				<img src={illustration2} alt="illustration" loading="lazy" className="w-full h-auto"/>
 			</div>
 		</motion.div>
