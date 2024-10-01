@@ -15,6 +15,7 @@ const Projects = () => {
 							whileInView={{ opacity: 1, y: 0 }} // Animates into view
 							viewport={{ once: true }} // Ensures the animation runs only once
 							transition={{ duration: 0.5, delay: index * 0.1 }} // Add delay for each card
+							className="bg-black/10 backdrop-blur-xl hover:border-white/10 border border-2 border-transparent rounded-2xl hover:scale-105"
 						>
 							<ProjectCard 
 								imgURL={project.imgURL} 
