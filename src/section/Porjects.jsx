@@ -11,8 +11,8 @@ const Projects = () => {
 					return (
 						<motion.div 
 							key={project.id}
-							initial={{ opacity: 0, x: -100 }} // Starts outside the view (left)
-							whileInView={{ opacity: 1, x: 0 }} // Animates into view
+							initial={{ opacity: 0, y: 100 }} // Starts outside the view (left)
+							whileInView={{ opacity: 1, y: 0 }} // Animates into view
 							viewport={{ once: true }} // Ensures the animation runs only once
 							transition={{ duration: 0.5, delay: index * 0.1 }} // Add delay for each card
 						>
