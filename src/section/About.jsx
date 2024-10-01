@@ -4,7 +4,7 @@ import { Pitems } from "../data";
 
 const About = () => {
 
-	const pStyle = "mb-1 text-lg p-3 cursor-pointer transition ease"
+	const pStyle = "mb-1 text-lg p-3 transition ease"
 	return (
 		<div className=" max-w-6xl m-auto py-10 min-h-fit bg-black/10 backdrop-blur-lg rounded-xl px-5">
 			<h1 className="text-5xl text-center mb-5 font-bold">ABOUT</h1>

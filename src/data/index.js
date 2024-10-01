@@ -97,7 +97,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript", "API"]
 	},
 	{
-		id: "3",
+		id: "4",
 		imgURL: NikeLanding,
 		title: "Nike Landing website",
 		description: "A simple Nike Landing page to demonstrate Tailwind.css and React skills. It is fully functional and responsive.",
@@ -106,7 +106,7 @@ export const projectsData = [
 		usedTech: ["React.js", "Tailwind.css"]
 	},
 	{
-		id: "4",
+		id: "5",
 		imgURL: TodoApp,
 		title: "Todo App",
 		description: "A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
@@ -115,7 +115,7 @@ export const projectsData = [
 		usedTech: ["React.js", "CSS", "Local Storage"]
 	},
 	{
-		id: "5",
+		id: "6",
 		imgURL: SpaceTourism,
 		title: "Space Tourism website",
 		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
@@ -124,7 +124,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id: "6",
+		id: "7",
 		imgURL: grillandgo,
 		title: "grill & go website",
 		description: "A simple restaurant website to demonstrate React.js and Tailwind.css skills. It is Fully functional and responsive",
@@ -133,7 +133,7 @@ export const projectsData = [
 		usedTech: ["React.js", "Tailwind.css"]
 	},
 	{
-		id: "7",
+		id: "8",
 		imgURL: MoviesLand,
 		title: "MoviesLand Website",
 		description: "A simple movies website to demonstrate React.js, css, and API skills. It is Fully functional and responsive",
@@ -142,7 +142,7 @@ export const projectsData = [
 		usedTech: ["React.js", "CSS", "API"]
 	},
 	{
-		id: "8",
+		id: "9",
 		imgURL: Cover,
 		title: "A Music App Design",
 		description: "For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
@@ -151,7 +151,7 @@ export const projectsData = [
 		usedTech: ["Figma"]
 	},
 	{
-		id: "9",
+		id: "10",
 		imgURL: MusicPlayer,
 		title: "Music Player website",
 		description: "A simple Music app to demonstrate my skills in JavaScript and CSS. Some music to chill and keep calm. It is Fully functional and responsive",
@@ -160,7 +160,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id: "10",
+		id: "11",
 		imgURL: Calculator,
 		title: "Calculator App",
 		description: "A simple calculator app to demonstrate JavaScript skills. It is Fully functional and responsive",
@@ -169,7 +169,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id: "11",
+		id: "12",
 		imgURL: CalorieCounter,
 		title: "Calorie Counter App",
 		description: "A simple calorie counter app to keep on track with your diet. It is Fully functional and responsive",
@@ -178,7 +178,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id: "12",
+		id: "13",
 		imgURL: AdviceApp,
 		title: "Advice App",
 		description: "A simple Advice app to demonstrate JavaScript and API skills. It is fully functional and responsive.",
@@ -187,7 +187,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript", "API"]
 	},
 	{
-		id: "13",
+		id: "14",
 		imgURL: PalindromeChecker,
 		title: "Palindrome Checker website",
 		description: "A simple Palindrome Checker app to demonstrate JavaScript array skills. It is Fully functional and responsive",
@@ -196,7 +196,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
 	{
-		id: "14",
+		id: "15",
 		imgURL: PortfolioV1,
 		title: "PortfolioV1 website",
 		description: "A simple PortfolioV1 to demonstrate HTML and CSS skills. It is Fully functional and responsive",

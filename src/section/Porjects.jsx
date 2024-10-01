@@ -6,7 +6,7 @@ const Projects = () => {
 	return (
 		<div className="max-w-6xl m-auto py-10 min-h-fit">
 			<h1 className="text-5xl font-bold text-center mb-16">Projects</h1>
-			<div className="flex flex-wrap justify-between gap-y-10 gap-x-0 max-[1294px]:justify-center">
+			<div className="flex flex-wrap justify-between gap-y-24 gap-x-0 max-[1294px]:justify-center">
 				{projectsData.map(function(project, index){
 					return (
 						<motion.div 
@@ -15,7 +15,7 @@ const Projects = () => {
 							whileInView={{ opacity: 1, y: 0 }} // Animates into view
 							viewport={{ once: true }} // Ensures the animation runs only once
 							transition={{ duration: 0.5, delay: index * 0.1 }} // Add delay for each card
-							className="bg-black/10 backdrop-blur-xl hover:border-white/10 border border-2 border-transparent rounded-2xl hover:scale-105"
+							className="hover:bg-black/10 hover:backdrop-blur-lg hover:border-white/10 border-2 border-transparent rounded-2xl hover:shadow-2xl hover:shadow-blue-500 transition ease"
 						>
 							<ProjectCard 
 								imgURL={project.imgURL} 
