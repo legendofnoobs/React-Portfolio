@@ -14,6 +14,8 @@ import NpmLogo from "../assets/tech/npm-logo.webp";
 import TailwindLogo from "../assets/tech/tailwindcss.webp";
 import ViteLogo from "../assets/tech/vite-shadow.webp";
 import FramerMotion from "../assets/tech/framer-motion.webp";
+import MaterialUiLogo from "../assets/tech/materialui.webp";
+import RapidLogo from "../assets/tech/rapidapilogo.webp";
 
 
 export const technologies = [
@@ -33,6 +35,8 @@ export const technologies = [
 	{ name: "Tailwind CSS", imgURL: TailwindLogo },
 	{ name: "Vite", imgURL: ViteLogo },
 	{ name: "Framer Motion", imgURL: FramerMotion },
+	{ name: "Material UI", imgURL: MaterialUiLogo },
+	{ name: "Rapid API", imgURL: RapidLogo },
 ];
 
 export const Pitems = {
@@ -57,6 +61,7 @@ import NikeLanding from "../assets/projects assets/Nike Landing.webp";
 import grillandgo from "../assets/projects assets/grillandgo.webp";
 import Brainwave from "../assets/projects assets/BrainWave.webp";
 import MoviesLand from "../assets/projects assets/MoviesLand.webp";
+import GymApp from "../assets/projects assets/GymApp.webp";
 
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
@@ -80,6 +85,15 @@ export const projectsData = [
 		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
 		live: "https://weatherapplegendofnoobs.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/WeatherApp",
+		usedTech: ["HTML", "CSS", "JavaScript", "API"]
+	},
+	{
+		id: "3",
+		imgURL: GymApp,
+		title: "Gym App",
+		description: "A simple Gym app to demonstrate React.js, Material UI and API skills. Made with a Freemium API so do not panic if the app do not load any exersices. It is Fully functional and responsive",
+		live: "https://minegymandexercisesapp.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/gym-app",
 		usedTech: ["HTML", "CSS", "JavaScript", "API"]
 	},
 	{
