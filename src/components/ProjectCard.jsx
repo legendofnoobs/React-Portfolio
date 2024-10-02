@@ -5,7 +5,7 @@ import { faLink } from "@fortawesome/free-solid-svg-icons"
 
 const ProjectCard = (props) => {
 	return (
-		<div className=" max-w-lg p-5 rounded-xl transition ease  flex flex-col justify-between max-[994px]:w-1/2 max-[638px]:w-full max-[638px]:text-sm h-full">
+		<div className="w-full p-5 rounded-xl transition ease  flex flex-col justify-between max-[994px]:w-full max-[638px]:w-full max-[638px]:text-sm h-full ">
 			<div>
 				<div className="mb-5">
 					<img className=" rounded-xl w-full h-auto" height="245" width="470" src={props.imgURL} alt="project Photo" loading="lazy"/>
