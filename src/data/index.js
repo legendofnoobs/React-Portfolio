@@ -94,7 +94,7 @@ export const projectsData = [
 		description: "A simple Gym app to demonstrate React.js, Material UI and API skills. Made with a Freemium API so do not panic if the app do not load any exersices. It is Fully functional and responsive",
 		live: "https://minegymandexercisesapp.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/gym-app",
-		usedTech: ["React.js", "Tailwind.css", "RapidAPI"]
+		usedTech: ["React.js", "Tailwind.css", "RapidAPI", "MaterialUI"]
 	},
 	{
 		id: "4",
