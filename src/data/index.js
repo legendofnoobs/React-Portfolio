@@ -16,11 +16,15 @@ import ViteLogo from "../assets/tech/vite-shadow.webp";
 import FramerMotion from "../assets/tech/framer-motion.webp";
 import MaterialUiLogo from "../assets/tech/materialui.webp";
 import RapidLogo from "../assets/tech/rapidapilogo.webp";
+import csharpLogo from "../assets/tech/cSharp.webp";
+import pythonLogo from "../assets/tech/pythonLogo.webp";
 
 
 export const technologies = [
 	{ name: "C++", imgURL: CppLogo },
 	{ name: "JAVA", imgURL: JavaLogo },
+	{ name: "c#", imgURL: csharpLogo },
+	{ name: "python", imgURL: pythonLogo },
 	{ name: "MySql", imgURL: MySqlLogo },
 	{ name: "HTML", imgURL: HtmlLogo },
 	{ name: "CSS", imgURL: CssLogo },
