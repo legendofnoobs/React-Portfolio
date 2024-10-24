@@ -84,6 +84,15 @@ export const projectsData = [
 	},
 	{
 		id: "2",
+		imgURL: SpaceTourism,
+		title: "Space Tourism website",
+		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
+		live: "https://space-tourism-ahmed-rashed.netlify.app/",
+		gitHUB: "https://github.com/legendofnoobs/space-tourism-revisited",
+		usedTech: ["React.js","Tailwind.css"]
+	},
+	{
+		id: "3",
 		imgURL: WeatherApp,
 		title: "Weather App",
 		description: "A simple Weather app to demonstrate JavaScript skills. Made this app as an individual project before college requested a web development course's project and just handed it 💀. It is Fully functional and responsive",
@@ -92,7 +101,7 @@ export const projectsData = [
 		usedTech: ["HTML", "CSS", "JavaScript", "API"]
 	},
 	{
-		id: "3",
+		id: "4",
 		imgURL: GymApp,
 		title: "Gym App",
 		description: "A simple Gym app to demonstrate React.js, Material UI and API skills. Made with a Freemium API so do not panic if the app do not load any exersices. It is Fully functional and responsive",
@@ -101,7 +110,7 @@ export const projectsData = [
 		usedTech: ["React.js", "Tailwind.css", "RapidAPI", "MaterialUI"]
 	},
 	{
-		id: "4",
+		id: "5",
 		imgURL: NikeLanding,
 		title: "Nike Landing website",
 		description: "A simple Nike Landing page to demonstrate Tailwind.css and React skills. It is fully functional and responsive.",
@@ -110,22 +119,13 @@ export const projectsData = [
 		usedTech: ["React.js", "Tailwind.css"]
 	},
 	{
-		id: "5",
+		id: "6",
 		imgURL: TodoApp,
 		title: "Todo App",
 		description: "A simple Todo app to demonstrate JavaScript and React skills. It is Fully functional and responsive",
 		live: "https://todoappahemdali.netlify.app/",
 		gitHUB: "https://github.com/legendofnoobs/todo-app",
 		usedTech: ["React.js", "CSS", "Local Storage"]
-	},
-	{
-		id: "6",
-		imgURL: SpaceTourism,
-		title: "Space Tourism website",
-		description: "Space tourism website to demonstrate skills. It was a challenge on Frontend Mentor. It is Fully functional and responsive",
-		live: "https://spacetourismwebsitelegendofnoobs.netlify.app/",
-		gitHUB: "https://github.com/legendofnoobs/Space-Tourism-website---Copy",
-		usedTech: ["HTML", "CSS", "JavaScript"]
 	},
 	{
 		id: "7",
