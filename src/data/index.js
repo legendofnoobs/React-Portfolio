@@ -150,7 +150,7 @@ export const projectsData = [
 		imgURL: Cover,
 		title: "A Music App Design",
 		description: "For Human Computer Interaction's course, I worked on this project with my colleagues to make a good looking UI inspired by Apple music and Spotify.",
-		live: "https://www.figma.com/design/SzKp1UwvKAnQsD3bWHa3bO/Music-App?node-id=342-2844&t=WeRZnyluR6u0aXvo-1",
+		live: "https://www.figma.com/design/SzKp1UwvKAnQsD3bWHa3bO/Music-App?node-id=0-1&t=59wQ2QfPncoLflLg-1",
 		gitHUB: groovePdf,
 		usedTech: ["Figma"]
 	},
