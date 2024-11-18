@@ -1,4 +1,4 @@
-import AhmedAliCv from "../assets/pdf/Ahmed Ali CV.pdf"
+import AhmedAliCv from "../assets/pdf/Ahmed Ali cv.pdf"
 
 const Button = () => {
 	return (

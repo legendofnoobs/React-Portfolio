@@ -13,9 +13,9 @@ const ProjectCard = (props) => {
 				<div className="mb-5">
 					<h2 className="text-3xl mb-2 max-[638px]:text-2xl max-[638px]:font-bold font-bold">{props.title}</h2>
 					<p className=" text-xl mb-5 max-[638px]:text-md">{props.description}</p>
-					<div className="flex gap-x-2 flex-wrap">
+					<div className="flex gap-x-2 gap-y-2 flex-wrap">
 					{props.usedTech.map(function(tech, index){
-						return <p key={index} className="bg-white/10 px-4 py-1 rounded-full flex-wrap">{tech}</p>
+						return <p key={index} className="bg-white/10 px-4 py-1 rounded-full">{tech}</p>
 					})}
 					</div>
 				</div>
