@@ -3,10 +3,11 @@ import { motion } from "framer-motion"
 import Card from "../components/Card"
 import { technologies } from "../data"
 
+const liStyle = "text-2xl max-[636px]:text-lg mb-1"
 const Skills = () => {
 	return (
 		<motion.div 
-			className="max-w-6xl py-10 min-h-fit bg-black/10 backdrop-blur-lg rounded-xl px-7"
+			className="max-w-[100rem] py-10 min-h-fit bg-black/10 backdrop-blur-lg rounded-xl px-7"
 			transition={{ delay: 0.3 }} // Add delay here
 			viewport={{ once: true }}
 		>
@@ -45,16 +46,16 @@ const Skills = () => {
 							transition={{ delay: 0.8 }} // Add delay for the list
 							viewport={{ once: true }}
 						>
-							<li>JSON</li>
-							<li>Basic Git</li>
-							<li>Version Control</li>
-							<li>Data Structures</li>
-							<li>SQL and Databases</li>
-							<li>Basic Linux Commands</li>
-							<li>Agile Software Development</li>
-							<li>Object Oriented Programming</li>
-							<li>Good Knowledge of Software Process And Life Cycle</li>
-							<li>Good Knowledge of Software Requirements and Specification</li>
+							<li className={liStyle}>JSON</li>
+							<li className={liStyle}>Basic Git</li>
+							<li className={liStyle}>Version Control</li>
+							<li className={liStyle}>Data Structures</li>
+							<li className={liStyle}>SQL and Databases</li>
+							<li className={liStyle}>Basic Linux Commands</li>
+							<li className={liStyle}>Agile Software Development</li>
+							<li className={liStyle}>Object Oriented Programming</li>
+							<li className={liStyle}>Good Knowledge of Software Process And Life Cycle</li>
+							<li className={liStyle}>Good Knowledge of Software Requirements and Specification</li>
 						</motion.ul>
 					</div>
 				</div>
