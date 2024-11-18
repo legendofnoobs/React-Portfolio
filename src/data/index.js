@@ -71,6 +71,9 @@ import SnapGram from "../assets/projects assets/SnapGram.png";
 
 import groovePdf from "../assets/pdf/GrooveMusicApp.pdf"
 
+export const cvLink = "https://docs.google.com/document/d/e/2PACX-1vRXb2_UZhZKpHpKVr3a-ZBqd8Z9wHggiFpYa-t2ocr9okXId8dxwtJ_Wpaff2k9W_9NWVHWX8wve-c6/pub"
+
+
 
 
 export const projectsData = [
